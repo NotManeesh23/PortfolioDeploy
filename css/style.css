@@ -9672,3 +9672,89 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Custom Skill Section Styles */
+.skill-category {
+  margin-bottom: 3rem;
+}
+
+.skill-category h3 {
+  color: #3e64ff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(62, 100, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.skill-category h3 i {
+  margin-right: 0.5rem;
+  color: #3e64ff;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #3e64ff, #2c4fd9);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(62, 100, 255, 0.3);
+  border: none;
+  text-decoration: none;
+}
+
+.skill-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(62, 100, 255, 0.5);
+  background: linear-gradient(135deg, #5a7dff, #4169e1);
+}
+
+.skill-tag:nth-child(even) {
+  background: linear-gradient(135deg, #2c4fd9, #1e3bb3);
+}
+
+.skill-tag:nth-child(even):hover {
+  background: linear-gradient(135deg, #5a7dff, #4169e1);
+}
+
+.progress-wrap h4 {
+  color: #212529;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+/* Enhanced Progress Bar Colors */
+.progress-bar.color-1 { background: linear-gradient(135deg, #3e64ff, #2c4fd9); }
+.progress-bar.color-2 { background: linear-gradient(135deg, #5a7dff, #4169e1); }
+.progress-bar.color-3 { background: linear-gradient(135deg, #17a2b8, #138496); }
+.progress-bar.color-4 { background: linear-gradient(135deg, #6f42c1, #59339d); }
+.progress-bar.color-5 { background: linear-gradient(135deg, #dc3545, #c82333); }
+.progress-bar.color-6 { background: linear-gradient(135deg, #6c757d, #5a6268); }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skill-tags {
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .skill-category h3 {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
