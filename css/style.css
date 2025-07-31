@@ -9758,3 +9758,6 @@ textarea.form-control {
     font-size: 1.1rem;
   }
 }
+
+/* Override skill category heading colors to black */
+.skill-category h3 { color: #212529 !important; border-bottom-color: rgba(33, 37, 41, 0.3) !important; }
