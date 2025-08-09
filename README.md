@@ -122,7 +122,7 @@ Edit `personal-portfolio-chatbot/constants.ts` to update:
 ## 📱 Mobile Responsiveness
 
 The portfolio and chat assistant are fully responsive:
-- **Desktop**: Full sidebar + chat widget
+- **Desktop**: Full sidebar + chat widget all here
 - **Tablet**: Optimized layout with accessible chat
 - **Mobile**: Compact design with full-screen chat option
 
